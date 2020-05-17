@@ -1,3 +1,7 @@
+# running local
+./wrk -t2 -c100 -d30s -R2000 http://127.0.0.1:5000
+
+
 # wrk2
 [![Build Status](https://travis-ci.com/giltene/wrk2.svg?branch=master)](https://travis-ci.com/giltene/wrk2) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/giltene/wrk2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
